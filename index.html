@@ -6,6 +6,23 @@
     <title>SEKCROTISME | Komunitas Kebebasan Finansial</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  body {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+
+  body.loaded {
+    opacity: 1;
+  }
+</style>
+
+<!-- Tambahkan di akhir sebelum </body> -->
+<script>
+  window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+  });
+</script>
 <body>
     <header>
         <h1>SEKCROTISME</h1>
