@@ -8,15 +8,15 @@
 /* Body utama */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0f0f8ff;
-  color: #f0f0f0;
+  background-color: #f0f8ff;
+  color: #f0f8ff;
   line-height: 1.6;
   padding: 1rem;
 }
 
 /* Header dan navigasi */
 header {
-  background-color: #1a1a1a;
+  background-color: #b0e0e6;
   padding: 2rem 1rem;
   text-align: center;
   border-bottom: 2px solid #444;
