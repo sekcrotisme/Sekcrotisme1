@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
+<head><!-- Tambahkan di bagian <head> -->
+<style>
+  body {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+
+  body.loaded {
+    opacity: 1;
+  }
+</style>
+
+<!-- Tambahkan di akhir sebelum </body> -->
+<script>
+  window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+  });
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEKCROTISME | Komunitas Kebebasan Finansial</title>
